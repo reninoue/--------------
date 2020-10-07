@@ -9,6 +9,7 @@ class PostsController < ApplicationController
     redirect_to action: :index
   end
   
+  aaaa
   def checked
     post = Post.find(params[:id])
     if post.checked
